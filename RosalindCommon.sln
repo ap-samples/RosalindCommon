@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RosalindCommonLib", "RosalindCommon\RosalindCommonLib.csproj", "{F268CE9E-5EE7-4DA5-85B9-B0C25C0B5387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibConsoleHost", "CommonLibTest\CommonLibConsoleHost.csproj", "{D6F7A7FD-D087-4511-AD28-F43E5E018ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibTests", "CommonLibUTests\CommonLibTests.csproj", "{04FE01DC-B1F4-4B06-897F-712B63AACA2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04FE01DC-B1F4-4B06-897F-712B63AACA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FE01DC-B1F4-4B06-897F-712B63AACA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FE01DC-B1F4-4B06-897F-712B63AACA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FE01DC-B1F4-4B06-897F-712B63AACA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F7A7FD-D087-4511-AD28-F43E5E018ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F7A7FD-D087-4511-AD28-F43E5E018ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F7A7FD-D087-4511-AD28-F43E5E018ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F7A7FD-D087-4511-AD28-F43E5E018ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F268CE9E-5EE7-4DA5-85B9-B0C25C0B5387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F268CE9E-5EE7-4DA5-85B9-B0C25C0B5387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F268CE9E-5EE7-4DA5-85B9-B0C25C0B5387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F268CE9E-5EE7-4DA5-85B9-B0C25C0B5387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CommonLibTest\CommonLibConsoleHost.csproj
+	EndGlobalSection
+EndGlobal
