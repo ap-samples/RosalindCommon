@@ -1,15 +1,15 @@
 using System;
 using System.IO;
 
+
 namespace RosalindCommonLib
 {
-	public class FileHelper
+	public static class FileHelper
 	{
-		public FileHelper()
-		{
-		}
+		public static readonly string HOME_FOLDER = 
+			Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
-		public void WriteContentToFile(string content, string filePath)
+		public static void WriteContentToFile(string content, string filePath)
 		{
 			using(StreamWriter sw = new StreamWriter(filePath)) 
 			{

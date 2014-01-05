@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RosalindCommon/FastaParser.cs">
     <Files>
-      <File FileName="RosalindCommon/FastaParser.cs" Line="18" Column="43" />
+      <File FileName="RosalindCommon/FastaParser.cs" Line="18" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
